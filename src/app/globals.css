@@ -112,6 +112,40 @@
   --sidebar-ring: oklch(0.541 0.281 293.009);
 }
 
+/* globals.css */
+[data-nextjs-dev-indicator] {
+  display: none !important;
+}
+@keyframes products-loop {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-products-loop {
+  animation: products-loop 70s linear infinite;
+}
+
+/* scrollbar styling (nice UX) */
+::-webkit-scrollbar {
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 999px;
+}
+
+
+
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

@@ -61,3 +61,13 @@ npx tsx --env-file=.env src/db/seed.ts
 
 Rizzle studio
 npm drizzle-kit studio
+
+lettra se - certificate
+
+/* globals.css */
+[data-nextjs-dev-indicator] {
+  display: none !important;
+}
+
+npm run build
+npm run start
