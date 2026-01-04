@@ -1,6 +1,22 @@
 "# BewearEcommerce" 
 # BewearEcommerce
 
+Functional Requirements
+
+SEO (Search Engine Optimization)
+Users must be able to log in
+Users must be able to modify the shopping cart
+ .Product quantity
+Users must be able to complete an order
+ .One or more products
+Users must be able to pay for the order 
+ .Credit card
+Users must be able to manage multiple delivery addresses
+Users must be able to view their past orders
+
+Project SetUP
+
+
 BewearEcommerce is a modern **e-commerce backend** built with **Node.js 22**, **TypeScript**, **PostgreSQL**, and **Drizzle ORM**.
 
 This project focuses on:
